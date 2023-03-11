@@ -404,7 +404,7 @@ footer .nav-link i {
 
 .carousel {
   display: flex;
-  height: 169px;
+  aspect-ratio: 1 / 1;
   width: 100%;
   flex-shrink: 0;
 }
@@ -659,7 +659,9 @@ and (max-device-width: 812px) {
   }
 
   .carousel-slide-up {
-    height: 220px
+    height: auto;
+    aspect-ratio: 1 / 1;
+    width: 100%;
   }
 
   .description p {
